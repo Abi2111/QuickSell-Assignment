@@ -6,6 +6,7 @@ export default function Card({ ticket }) {
       <div className="card-profile">
         <h3 className="card-id">{ticket.id}</h3>
         <div className="card-profile-pic">
+          <div className="status"></div>
           {ticket.userName.slice(0, 2).toUpperCase()}
         </div>
       </div>
