@@ -229,7 +229,7 @@ function App() {
                           fill="#5E5E5F"
                         />
                       </svg>
-                    ) : groupedTickets[group][0].priority == 1 ? (
+                    ) : groupedTickets[group][0].priority === 1 ? (
                       <svg
                         width="16"
                         height="16"
@@ -252,7 +252,7 @@ function App() {
                           fill-opacity="0.4"
                         />
                       </svg>
-                    ) : groupedTickets[group][0].priority == 2 ? (
+                    ) : groupedTickets[group][0].priority === 2 ? (
                       <svg
                         width="16"
                         height="16"
@@ -274,7 +274,7 @@ function App() {
                           fill-opacity="0.4"
                         />
                       </svg>
-                    ) : groupedTickets[group][0].priority == 3 ? (
+                    ) : groupedTickets[group][0].priority === 3 ? (
                       <svg
                         width="16"
                         height="16"

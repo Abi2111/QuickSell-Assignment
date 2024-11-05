@@ -37,7 +37,7 @@ export default function Card({ ticket }) {
                 fill="#5E5E5F"
               />
             </svg>
-          ) : ticket.priority == 1 ? (
+          ) : ticket.priority === 1 ? (
             <svg
               width="16"
               height="16"
@@ -60,7 +60,7 @@ export default function Card({ ticket }) {
                 fill-opacity="0.4"
               />
             </svg>
-          ) : ticket.priority == 2 ? (
+          ) : ticket.priority === 2 ? (
             <svg
               width="16"
               height="16"
@@ -82,7 +82,7 @@ export default function Card({ ticket }) {
                 fill-opacity="0.4"
               />
             </svg>
-          ) : ticket.priority == 3 ? (
+          ) : ticket.priority === 3 ? (
             <svg
               width="16"
               height="16"
